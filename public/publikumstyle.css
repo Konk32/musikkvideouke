@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+#group-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  justify-content: space-between;
+}
+
+.group-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.group-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.points {
+  font-size: 16px;
+}
+
+.top-group {
+  background-color: #FFD700;  /* Gullfarge for gruppen med høyest poengsum */
+  border: 2px solid #ffcc00;
+}
